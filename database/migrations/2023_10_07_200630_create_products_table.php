@@ -20,8 +20,8 @@ return new class extends Migration
             $table->integer('stock');
             $table->string('image')->nullable();
             $table->string('sku')->unique();
-            $table->unsignedBigInteger('category');
-            $table->foreign('category')->references('id')->on('categories');
+            $table->unsignedBigInteger('category_id');
+            $table->foreign('category_id')->references('id')->on('categories');
             $table->timestamps();
         });
     }

@@ -21,7 +21,7 @@ class ProductSeeder extends Seeder
             'stock' => 3,
             'image' => null,
             'sku' => '12345',
-            'category' => 1
+            'category_id' => 1
         ]);
 
         DB::table('products')->insert([
@@ -32,7 +32,7 @@ class ProductSeeder extends Seeder
             'stock' => 3,
             'image' => null,
             'sku' => '54321',
-            'category' => 1
+            'category_id' => 1
         ]);
     }
 }

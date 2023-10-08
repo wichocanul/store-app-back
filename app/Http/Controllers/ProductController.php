@@ -12,11 +12,27 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::all();
+        $products = Product::with('category')->get();
+
+        $productsTransform = $products->map(function($product) {
+            return [
+                'id' => $product->id,
+                'name' => $product->name,
+                'description' => $product->description,
+                'price' => $product->price,
+                'priceOff' => $product->priceOff,
+                'stock' => $product->stock,
+                'image' => $product->image,
+                'sku' => $product->sku,
+                'category' => $product->category->name,
+                'created_at' => $product->created_at,
+                'updated_at' => $product->updated_at,
+            ];
+        });
 
         return response()->json([
             'message' => 'success',
-            'data' => $products
+            'data' => $productsTransform
         ], 200);
     }
 
