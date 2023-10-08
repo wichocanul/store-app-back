@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlacesController;
 use App\Http\Controllers\ProductController;
+use App\Models\Product;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,4 +39,6 @@ Route::middleware(['auth:sanctum', 'checkAdmin'])->group(function () {
     Route::post('product-create', [ProductController::class, 'create']);
 
     Route::match(['put', 'patch'], 'product-edit/{id}', [ProductController::class, 'update']);
+
+    Route::delete('product-delete/{id}', [ProductController::class, 'destroy']);
 });

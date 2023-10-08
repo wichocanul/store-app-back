@@ -167,15 +167,33 @@ class ProductController extends Controller
             return response()->json([
                 'message' => 'error',
                 'details' => 'Error updating product'
-            ]);
+            ], 500);
         }
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Product $product)
+    public function destroy($id)
     {
-        //
+        try {
+
+            $product = Product::findOrFail($id);
+
+            $product->delete();
+
+            return response()->json([
+                'message' => 'success',
+                'details' => 'The Product '. $product->name.' was removed'
+            ], 200);
+
+        } catch (Exception $e) {
+
+            return response()->json([
+                'message' => 'error',
+                'details' => 'The product not found'
+            ]);
+
+        }
     }
 }
