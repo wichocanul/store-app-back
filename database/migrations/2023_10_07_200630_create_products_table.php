@@ -18,7 +18,7 @@ return new class extends Migration
             $table->float('price');
             $table->integer('priceOff')->nullable();
             $table->integer('stock');
-            $table->string('image')->nullable();
+            $table->json('image');
             $table->string('sku')->unique();
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');

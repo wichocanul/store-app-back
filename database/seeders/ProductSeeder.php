@@ -19,7 +19,7 @@ class ProductSeeder extends Seeder
             'price' => 15999,
             'priceOff' => null,
             'stock' => 3,
-            'image' => null,
+            'image' => json_encode(['img1.jpg', 'img2.jpg']),
             'sku' => '12345',
             'category_id' => 1
         ]);
@@ -30,7 +30,7 @@ class ProductSeeder extends Seeder
             'price' => 4099,
             'priceOff' => 48,
             'stock' => 3,
-            'image' => null,
+            'image' => json_encode(['img1.jpg', 'img2.jpg']),
             'sku' => '54321',
             'category_id' => 1
         ]);

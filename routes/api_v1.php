@@ -37,4 +37,6 @@ Route::middleware(['auth:sanctum', 'checkAdmin'])->group(function() {
 
     Route::get('test', [AuthController::class, 'test']);
 
+    Route::post('product-create', [ProductController::class, 'create']);
+
 });
