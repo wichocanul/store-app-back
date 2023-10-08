@@ -16,7 +16,9 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+
     return $request->user();
+
 });
 
 Route::post('register-user', [AuthController::class, 'register']);
@@ -28,5 +30,11 @@ Route::get('products', [ProductController::class, 'index']);
 Route::middleware(['auth:sanctum'])->group(function() {
 
     Route::get('logout', [AuthController::class, 'logout']);
+
+});
+
+Route::middleware(['auth:sanctum', 'checkAdmin'])->group(function() {
+
+    Route::get('test', [AuthController::class, 'test']);
 
 });

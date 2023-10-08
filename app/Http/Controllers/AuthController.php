@@ -38,7 +38,8 @@ class AuthController extends Controller
         $user = User::create([
             'user' => $request->user,
             'email' => $request->email,
-            'password' => Hash::make($request->password)
+            'password' => Hash::make($request->password),
+            'userType' => 'normal'
         ]);
 
         $token = $user->createToken('auth_token')->plainTextToken;
@@ -79,5 +80,11 @@ class AuthController extends Controller
             'message' => 'success',
             'details' => 'You have successfully logged out and the token was successfully deleted'
         ], 200);
+    }
+
+    public function test(){
+        return response()->json([
+            'message' => 'algo'
+        ]);
     }
 }
