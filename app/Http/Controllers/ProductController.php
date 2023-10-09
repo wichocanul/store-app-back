@@ -41,6 +41,38 @@ class ProductController extends Controller
         ], 200);
     }
 
+    public function search(Request $request)
+    {
+        $name = $request->input('name');
+        $category = $request->input('category');
+
+        $query = Product::query();
+
+        if($name) {
+            $query->where('name', 'ilike', '%' . $name . '%');
+        }
+
+        if($category) {
+            $query->whereHas('category', function ($query) use ($category) {
+                $query->where('name', 'ilike', '%' . $category . '%');
+            });
+        }
+
+        $products = $query->get();
+
+        if($products->isEmpty()) {
+            return response()->json([
+                'message' => 'error',
+                'data' => 'No results found'
+            ], 404);
+        }
+
+        return response()->json([
+            'message' => 'success',
+            'data' => $products
+        ], 200);
+    }
+
     /**
      * Show the form for creating a new resource.
      */
@@ -83,7 +115,7 @@ class ProductController extends Controller
         $imageData = $request->input('image');
 
         $product = Product::create([
-            'name' => strtolower($request->input('name')),
+            'name' => $request->input('name'),
             'description' => $request->input('description'),
             'price' => $request->input('price'),
             'priceOff' => $request->input('priceOff'),
