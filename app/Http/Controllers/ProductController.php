@@ -60,6 +60,11 @@ class ProductController extends Controller
 
         $products = $query->get();
 
+        $products->transform(function ($product) {
+            $product->image = json_decode($product->image);
+            return $product;
+        });
+
         if($products->isEmpty()) {
             return response()->json([
                 'message' => 'error',
