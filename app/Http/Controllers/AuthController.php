@@ -10,7 +10,16 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    public function register(Request $request)
+    public function registerUser(Request $request) {
+        return $this->register($request, 'normal');
+    }
+
+    public function registerAdmin(Request $request) {
+        return $this->register($request, 'admin');
+    }
+
+
+    public function register(Request $request, $userType = 'normal')
     {
         $validator = Validator::make($request->all(), [
             'user' => 'required|string|max:255',
@@ -39,7 +48,7 @@ class AuthController extends Controller
             'user' => $request->user,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'userType' => 'normal'
+            'userType' => $userType
         ]);
 
         $token = $user->createToken('auth_token')->plainTextToken;
@@ -47,7 +56,6 @@ class AuthController extends Controller
         return response()->json([
             'message' => 'success',
             'access_token' => $token,
-            'token_type' => 'Bearer',
             'data' => $user,
         ], 200);
     }
@@ -80,11 +88,5 @@ class AuthController extends Controller
             'message' => 'success',
             'details' => 'You have successfully logged out and the token was successfully deleted'
         ], 200);
-    }
-
-    public function test(){
-        return response()->json([
-            'message' => 'algo'
-        ]);
     }
 }

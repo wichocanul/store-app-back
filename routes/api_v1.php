@@ -21,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('register-user', [AuthController::class, 'register']);
+Route::post('register-user', [AuthController::class, 'registerUser']);
 
 Route::post('login', [AuthController::class, 'login']);
 
@@ -36,7 +36,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 Route::middleware(['auth:sanctum', 'checkAdmin'])->group(function () {
 
-    Route::get('test', [AuthController::class, 'test']);
+    Route::post('register-admin', [AuthController::class, 'registerAdmin']);
 
     Route::post('product-create', [ProductController::class, 'create']);
 
