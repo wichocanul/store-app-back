@@ -43,18 +43,17 @@ class ProductController extends Controller
 
     public function search(Request $request)
     {
-        $name = $request->input('name');
-        $category = $request->input('category');
+
+        $searchTerm = $request->input('search_term');
 
         $query = Product::query();
 
-        if($name) {
-            $query->where('name', 'ilike', '%' . $name . '%');
-        }
-
-        if($category) {
-            $query->whereHas('category', function ($query) use ($category) {
-                $query->where('name', 'ilike', '%' . $category . '%');
+        if ($searchTerm) {
+            $query->where(function ($query) use ($searchTerm) {
+                $query->where('name', 'ilike', '%' . $searchTerm . '%')
+                    ->orWhereHas('category', function ($query) use ($searchTerm) {
+                        $query->where('name', 'ilike', '%' . $searchTerm . '%');
+                    });
             });
         }
 
@@ -65,7 +64,7 @@ class ProductController extends Controller
             return $product;
         });
 
-        if($products->isEmpty()) {
+        if ($products->isEmpty()) {
             return response()->json([
                 'message' => 'error',
                 'data' => 'No results found'
@@ -221,16 +220,14 @@ class ProductController extends Controller
 
             return response()->json([
                 'message' => 'success',
-                'details' => 'The Product '. $product->name.' was removed'
+                'details' => 'The Product ' . $product->name . ' was removed'
             ], 200);
-
         } catch (Exception $e) {
 
             return response()->json([
                 'message' => 'error',
                 'details' => 'The product not found'
             ]);
-
         }
     }
 }
