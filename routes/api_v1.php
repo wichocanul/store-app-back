@@ -40,6 +40,8 @@ Route::middleware(['auth:sanctum', 'checkAdmin'])->group(function () {
 
     Route::post('product-create', [ProductController::class, 'create']);
 
+    Route::get('users', [AuthController::class, 'show']);
+
     Route::match(['put', 'patch'], 'product-edit/{id}', [ProductController::class, 'update']);
 
     Route::delete('product-delete/{id}', [ProductController::class, 'destroy']);

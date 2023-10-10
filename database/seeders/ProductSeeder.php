@@ -19,9 +19,9 @@ class ProductSeeder extends Seeder
             'price' => 15999,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_619667-MLA47781882790_102021-F.webp', 'img2.jpg']),
             'sku' => '12345',
-            'category_id' => 1
+            'category_id' => 4
         ]);
 
         DB::table('products')->insert([
@@ -30,9 +30,9 @@ class ProductSeeder extends Seeder
             'price' => 4099,
             'priceOff' => 48,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_665318-MLM71970070316_092023-F.webp']),
             'sku' => '54321',
-            'category_id' => 1
+            'category_id' => 4
         ]);
 
         DB::table('products')->insert([
@@ -41,7 +41,7 @@ class ProductSeeder extends Seeder
             'price' => 1000,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_978979-MLA45807973019_052021-F.webp']),
             'sku' => '00000',
             'category_id' => 4
         ]);
@@ -52,7 +52,7 @@ class ProductSeeder extends Seeder
             'price' => 100,
             'priceOff' => 10,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_960291-MLM49956049584_052022-F.webp']),
             'sku' => '00001',
             'category_id' => 6
         ]);
@@ -63,7 +63,7 @@ class ProductSeeder extends Seeder
             'price' => 7699,
             'priceOff' => 5,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_641295-MLA69573719686_052023-F.webp']),
             'sku' => '00002',
             'category_id' => 1
         ]);
@@ -74,7 +74,7 @@ class ProductSeeder extends Seeder
             'price' => 4944,
             'priceOff' => null,
             'stock' => 15,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_692500-MLA71524721778_092023-F.webp']),
             'sku' => '00003',
             'category_id' => 1
         ]);
@@ -85,7 +85,7 @@ class ProductSeeder extends Seeder
             'price' => 1450,
             'priceOff' => null,
             'stock' => 12,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_886155-MLM72003729001_092023-F.webp']),
             'sku' => '00004',
             'category_id' => 1
         ]);
@@ -96,7 +96,7 @@ class ProductSeeder extends Seeder
             'price' => 9450,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_730583-MLU71967244702_092023-F.webp']),
             'sku' => '00005',
             'category_id' => 1
         ]);
@@ -107,7 +107,7 @@ class ProductSeeder extends Seeder
             'price' => 1349,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_862125-MLM49529274367_032022-F.webp']),
             'sku' => '00006',
             'category_id' => 1
         ]);
@@ -118,7 +118,7 @@ class ProductSeeder extends Seeder
             'price' => 3349,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_827500-MLA40176358181_122019-F.webp']),
             'sku' => '00007',
             'category_id' => 1
         ]);
@@ -129,7 +129,7 @@ class ProductSeeder extends Seeder
             'price' => 1054,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_644997-MLA54760823284_032023-F.webp']),
             'sku' => '00008',
             'category_id' => 1
         ]);
@@ -140,7 +140,7 @@ class ProductSeeder extends Seeder
             'price' => 1320,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_619915-MLA43440081550_092020-F.webp']),
             'sku' => '00009',
             'category_id' => 1
         ]);
@@ -151,7 +151,7 @@ class ProductSeeder extends Seeder
             'price' => 1050,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_850327-MLA54712581525_032023-F.webp']),
             'sku' => '00010',
             'category_id' => 1
         ]);
@@ -162,7 +162,7 @@ class ProductSeeder extends Seeder
             'price' => 1045,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_741255-MLA40865317251_022020-F.webp']),
             'sku' => '00011',
             'category_id' => 1
         ]);
@@ -173,7 +173,7 @@ class ProductSeeder extends Seeder
             'price' => 2149,
             'priceOff' => 10,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_621404-MLA43441025674_092020-F.webp']),
             'sku' => '00012',
             'category_id' => 1
         ]);
@@ -184,7 +184,7 @@ class ProductSeeder extends Seeder
             'price' => 879,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_652767-MLA48814824604_012022-F.webp']),
             'sku' => '00013',
             'category_id' => 1
         ]);
@@ -195,7 +195,7 @@ class ProductSeeder extends Seeder
             'price' => 1055,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_703000-MLU69101700410_042023-F.webp']),
             'sku' => '00014',
             'category_id' => 1
         ]);
@@ -206,7 +206,7 @@ class ProductSeeder extends Seeder
             'price' => 749,
             'priceOff' => 25,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_666595-MLM51853159963_102022-F.webp']),
             'sku' => '00015',
             'category_id' => 1
         ]);
@@ -217,7 +217,7 @@ class ProductSeeder extends Seeder
             'price' => 1098,
             'priceOff' => 15,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_906699-MLA49021209749_022022-F.webp']),
             'sku' => '00016',
             'category_id' => 1
         ]);
@@ -228,7 +228,7 @@ class ProductSeeder extends Seeder
             'price' => 999,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_983267-MLM72084855524_102023-F.webp']),
             'sku' => '00017',
             'category_id' => 1
         ]);
@@ -239,7 +239,7 @@ class ProductSeeder extends Seeder
             'price' => 1279,
             'priceOff' => 8,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_968236-MLU70930443675_082023-F.webp']),
             'sku' => '00018',
             'category_id' => 1
         ]);
@@ -250,7 +250,7 @@ class ProductSeeder extends Seeder
             'price' => 9999,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_869393-MLA52178822970_102022-F.webp']),
             'sku' => '00019',
             'category_id' => 1
         ]);
@@ -261,7 +261,7 @@ class ProductSeeder extends Seeder
             'price' => 4899,
             'priceOff' => 15,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_927949-MLM69962496610_062023-F.webp']),
             'sku' => '00020',
             'category_id' => 1
         ]);
@@ -272,7 +272,7 @@ class ProductSeeder extends Seeder
             'price' => 1299,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_773036-MLA28099105506_092018-F.webp']),
             'sku' => '00021',
             'category_id' => 2
         ]);
@@ -283,7 +283,7 @@ class ProductSeeder extends Seeder
             'price' => 899,
             'priceOff' => 10,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_644680-MLM46174401805_052021-F.webp']),
             'sku' => '00022',
             'category_id' => 2
         ]);
@@ -294,7 +294,7 @@ class ProductSeeder extends Seeder
             'price' => 129,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_626084-MLM69936478454_062023-F.webp']),
             'sku' => '00023',
             'category_id' => 2
         ]);
@@ -305,7 +305,7 @@ class ProductSeeder extends Seeder
             'price' => 4990,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_839560-MLM51509245921_092022-F.webp']),
             'sku' => '00024',
             'category_id' => 2
         ]);
@@ -316,7 +316,7 @@ class ProductSeeder extends Seeder
             'price' => 2399,
             'priceOff' => 20,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_963663-CBT71253601396_082023-F.webp']),
             'sku' => '00025',
             'category_id' => 2
         ]);
@@ -327,7 +327,7 @@ class ProductSeeder extends Seeder
             'price' => 619,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_832792-MLM53808274193_022023-F.webp']),
             'sku' => '00026',
             'category_id' => 2
         ]);
@@ -338,7 +338,7 @@ class ProductSeeder extends Seeder
             'price' => 1619,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_657255-CBT71270128806_082023-F.webp']),
             'sku' => '00027',
             'category_id' => 2
         ]);
@@ -349,7 +349,7 @@ class ProductSeeder extends Seeder
             'price' => 1499,
             'priceOff' => 50,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_691946-CBT70955637192_082023-F.webp']),
             'sku' => '00028',
             'category_id' => 2
         ]);
@@ -360,7 +360,7 @@ class ProductSeeder extends Seeder
             'price' => 1199,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_650571-MLM45470934899_042021-F.webp']),
             'sku' => '00029',
             'category_id' => 2
         ]);
@@ -371,7 +371,7 @@ class ProductSeeder extends Seeder
             'price' => 2999,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_614999-MLM70662789119_072023-F.webp']),
             'sku' => '00030',
             'category_id' => 2
         ]);
@@ -382,7 +382,7 @@ class ProductSeeder extends Seeder
             'price' => 699,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_833094-MLM54154259070_032023-F.webp']),
             'sku' => '00031',
             'category_id' => 2
         ]);
@@ -393,7 +393,7 @@ class ProductSeeder extends Seeder
             'price' => 269,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_761150-MLM49295671325_032022-F.webp']),
             'sku' => '00032',
             'category_id' => 2
         ]);
@@ -404,7 +404,7 @@ class ProductSeeder extends Seeder
             'price' => 159,
             'priceOff' => 5,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_839836-MLM45685544143_042021-F.webp']),
             'sku' => '00033',
             'category_id' => 2
         ]);
@@ -415,7 +415,7 @@ class ProductSeeder extends Seeder
             'price' => 149,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_898794-MLM69668122299_052023-F.webp']),
             'sku' => '00034',
             'category_id' => 2
         ]);
@@ -426,7 +426,7 @@ class ProductSeeder extends Seeder
             'price' => 549,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_922169-CBT47773337850_102021-F.webp']),
             'sku' => '00035',
             'category_id' => 2
         ]);
@@ -437,7 +437,7 @@ class ProductSeeder extends Seeder
             'price' => 268,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_698332-MLM71941756903_092023-F.webp']),
             'sku' => '00036',
             'category_id' => 2
         ]);
@@ -448,7 +448,7 @@ class ProductSeeder extends Seeder
             'price' => 389,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_821332-MLM52487152751_112022-F.webp']),
             'sku' => '00037',
             'category_id' => 2
         ]);
@@ -459,7 +459,7 @@ class ProductSeeder extends Seeder
             'price' => 358,
             'priceOff' => 5,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_793749-MLM69562280152_052023-F.webp']),
             'sku' => '00038',
             'category_id' => 2
         ]);
@@ -470,7 +470,7 @@ class ProductSeeder extends Seeder
             'price' => 279,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_842152-MLM71662151213_092023-F.webp']),
             'sku' => '00039',
             'category_id' => 2
         ]);
@@ -481,7 +481,7 @@ class ProductSeeder extends Seeder
             'price' => 5800,
             'priceOff' => 9,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_792341-MLU69602338826_052023-F.webp']),
             'sku' => '00040',
             'category_id' => 2
         ]);
@@ -492,7 +492,7 @@ class ProductSeeder extends Seeder
             'price' => 5800,
             'priceOff' => 9,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_737762-MLM51099289224_082022-F.webp']),
             'sku' => '10040',
             'category_id' => 2
         ]);
@@ -503,7 +503,7 @@ class ProductSeeder extends Seeder
             'price' => 309,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_862896-MLM69163035841_042023-F.webp']),
             'sku' => '00041',
             'category_id' => 3
         ]);
@@ -514,7 +514,7 @@ class ProductSeeder extends Seeder
             'price' => 499,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_775477-MLM49885369294_052022-F.webp']),
             'sku' => '00042',
             'category_id' => 3
         ]);
@@ -525,7 +525,7 @@ class ProductSeeder extends Seeder
             'price' => 199,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_670560-MLM52986692836_122022-F.webp']),
             'sku' => '00043',
             'category_id' => 3
         ]);
@@ -536,7 +536,7 @@ class ProductSeeder extends Seeder
             'price' => 579,
             'priceOff' => 6,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_971405-CBT48037458532_102021-F.webp']),
             'sku' => '00044',
             'category_id' => 3
         ]);
@@ -547,7 +547,7 @@ class ProductSeeder extends Seeder
             'price' => 899,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_976975-MLM71807283884_092023-F.webp']),
             'sku' => '00045',
             'category_id' => 3
         ]);
@@ -558,7 +558,7 @@ class ProductSeeder extends Seeder
             'price' => 479,
             'priceOff' => 25,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_794632-MLM54923913658_042023-F.webp']),
             'sku' => '00046',
             'category_id' => 3
         ]);
@@ -569,7 +569,7 @@ class ProductSeeder extends Seeder
             'price' => 169,
             'priceOff' => null,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_952839-MLM69493389981_052023-F.webp']),
             'sku' => '00047',
             'category_id' => 3
         ]);
@@ -580,7 +580,7 @@ class ProductSeeder extends Seeder
             'price' => 169,
             'priceOff' => null,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_745523-MLM51219274168_082022-F.webp']),
             'sku' => '00048',
             'category_id' => 3
         ]);
@@ -591,7 +591,7 @@ class ProductSeeder extends Seeder
             'price' => 1899,
             'priceOff' => 25,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_855321-MLM70937019369_082023-F.webp']),
             'sku' => '00049',
             'category_id' => 3
         ]);
@@ -602,7 +602,7 @@ class ProductSeeder extends Seeder
             'price' => 1999,
             'priceOff' => 30,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_941534-MLM71553598635_092023-F.webp']),
             'sku' => '00050',
             'category_id' => 3
         ]);
@@ -613,7 +613,7 @@ class ProductSeeder extends Seeder
             'price' => 419,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_741518-CBT53768256118_022023-F.webp']),
             'sku' => '00051',
             'category_id' => 3
         ]);
@@ -624,7 +624,7 @@ class ProductSeeder extends Seeder
             'price' => 311,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_691248-MLM46496203045_062021-F.webp']),
             'sku' => '00052',
             'category_id' => 3
         ]);
@@ -635,7 +635,7 @@ class ProductSeeder extends Seeder
             'price' => 1399,
             'priceOff' => 10,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_907707-MLM53431661041_012023-F.webp']),
             'sku' => '00053',
             'category_id' => 3
         ]);
@@ -646,7 +646,7 @@ class ProductSeeder extends Seeder
             'price' => 369,
             'priceOff' => 40,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_672963-MLM70118056515_062023-F.webp']),
             'sku' => '00054',
             'category_id' => 3
         ]);
@@ -657,7 +657,7 @@ class ProductSeeder extends Seeder
             'price' => 299,
             'priceOff' => 20,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_634164-MLM47825437864_102021-F.webp']),
             'sku' => '00055',
             'category_id' => 3
         ]);
@@ -668,7 +668,7 @@ class ProductSeeder extends Seeder
             'price' => 99,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_942133-MLM48838572518_012022-F.webp']),
             'sku' => '00056',
             'category_id' => 3
         ]);
@@ -679,7 +679,7 @@ class ProductSeeder extends Seeder
             'price' => 699,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_979848-MLM71191286238_082023-F.webp']),
             'sku' => '00057',
             'category_id' => 3
         ]);
@@ -690,7 +690,7 @@ class ProductSeeder extends Seeder
             'price' => 399,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_682791-CBT54919625184_042023-F.webp']),
             'sku' => '00058',
             'category_id' => 3
         ]);
@@ -701,7 +701,7 @@ class ProductSeeder extends Seeder
             'price' => 1899,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_822189-MLM54915971358_042023-F.webp']),
             'sku' => '00059',
             'category_id' => 3
         ]);
@@ -712,7 +712,7 @@ class ProductSeeder extends Seeder
             'price' => 999,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_816520-MLM71138654857_082023-F.webp']),
             'sku' => '00060',
             'category_id' => 3
         ]);
@@ -723,7 +723,7 @@ class ProductSeeder extends Seeder
             'price' => 5499,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_732057-MLA70868353813_082023-F.webp']),
             'sku' => '00061',
             'category_id' => 4
         ]);
@@ -734,7 +734,7 @@ class ProductSeeder extends Seeder
             'price' => 5384,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_818910-MLM54251887546_032023-F.webp']),
             'sku' => '00062',
             'category_id' => 4
         ]);
@@ -745,7 +745,7 @@ class ProductSeeder extends Seeder
             'price' => 4994,
             'priceOff' => 35,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_631994-MLU69692495481_052023-F.webp']),
             'sku' => '00063',
             'category_id' => 4
         ]);
@@ -756,7 +756,7 @@ class ProductSeeder extends Seeder
             'price' => 4599,
             'priceOff' => 30,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_690328-MLA42475501902_072020-F.webp']),
             'sku' => '00064',
             'category_id' => 4
         ]);
@@ -767,7 +767,7 @@ class ProductSeeder extends Seeder
             'price' => 17119,
             'priceOff' => 20,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_995279-MLA51520827507_092022-F.webp']),
             'sku' => '00065',
             'category_id' => 4
         ]);
@@ -778,7 +778,7 @@ class ProductSeeder extends Seeder
             'price' => 2319,
             'priceOff' => 15,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_884213-MLU70629953720_072023-F.webp']),
             'sku' => '00066',
             'category_id' => 4
         ]);
@@ -789,7 +789,7 @@ class ProductSeeder extends Seeder
             'price' => 2990,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_825376-MLM46129305616_052021-F.webp']),
             'sku' => '00067',
             'category_id' => 4
         ]);
@@ -800,7 +800,7 @@ class ProductSeeder extends Seeder
             'price' => 2549,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_728879-MLA70504832739_072023-F.webp']),
             'sku' => '00068',
             'category_id' => 4
         ]);
@@ -811,7 +811,7 @@ class ProductSeeder extends Seeder
             'price' => 499,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_639996-CBT71248577578_082023-F.webp']),
             'sku' => '00069',
             'category_id' => 4
         ]);
@@ -822,7 +822,7 @@ class ProductSeeder extends Seeder
             'price' => 4599,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_862371-CBT71923750029_092023-F.webp']),
             'sku' => '00070',
             'category_id' => 4
         ]);
@@ -833,7 +833,7 @@ class ProductSeeder extends Seeder
             'price' => 13969,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_904275-MLU71053288314_082023-F.webp']),
             'sku' => '00071',
             'category_id' => 4
         ]);
@@ -844,7 +844,7 @@ class ProductSeeder extends Seeder
             'price' => 21990,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_807549-MLM71399141107_082023-F.webp']),
             'sku' => '00072',
             'category_id' => 4
         ]);
@@ -855,7 +855,7 @@ class ProductSeeder extends Seeder
             'price' => 7590,
             'priceOff' => 15,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_829232-MLA44215865623_122020-F.webp']),
             'sku' => '00073',
             'category_id' => 4
         ]);
@@ -866,7 +866,7 @@ class ProductSeeder extends Seeder
             'price' => 1690,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_995065-MLA43814681063_102020-F.webp']),
             'sku' => '00074',
             'category_id' => 4
         ]);
@@ -877,7 +877,7 @@ class ProductSeeder extends Seeder
             'price' => 4490,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_801322-MLA41288682063_032020-F.webp']),
             'sku' => '00075',
             'category_id' => 4
         ]);
@@ -888,7 +888,7 @@ class ProductSeeder extends Seeder
             'price' => 12700,
             'priceOff' => 35,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_675076-MLM70705877870_072023-F.webp']),
             'sku' => '00076',
             'category_id' => 4
         ]);
@@ -899,7 +899,7 @@ class ProductSeeder extends Seeder
             'price' => 11167,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_982232-MLU69826403549_062023-F.webp']),
             'sku' => '00077',
             'category_id' => 4
         ]);
@@ -910,7 +910,7 @@ class ProductSeeder extends Seeder
             'price' => 2990,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_929203-MLU69203683762_052023-F.webp']),
             'sku' => '00078',
             'category_id' => 4
         ]);
@@ -921,7 +921,7 @@ class ProductSeeder extends Seeder
             'price' => 2258,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_856393-MLU69744168482_062023-F.webp']),
             'sku' => '00079',
             'category_id' => 4
         ]);
@@ -932,7 +932,7 @@ class ProductSeeder extends Seeder
             'price' => 1299,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_915022-MLU70743111439_072023-F.webp']),
             'sku' => '00080',
             'category_id' => 4
         ]);
@@ -943,7 +943,7 @@ class ProductSeeder extends Seeder
             'price' => 1759,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_967029-MLM53148952579_012023-F.webp']),
             'sku' => '00081',
             'category_id' => 5
         ]);
@@ -954,7 +954,7 @@ class ProductSeeder extends Seeder
             'price' => 1099,
             'priceOff' => 15,
             'stock' => 1,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_873552-MLA49576010606_042022-F.webp']),
             'sku' => '00082',
             'category_id' => 5
         ]);
@@ -965,7 +965,7 @@ class ProductSeeder extends Seeder
             'price' => 399,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_641171-MLA52110160386_102022-F.webp']),
             'sku' => '00083',
             'category_id' => 5
         ]);
@@ -976,7 +976,7 @@ class ProductSeeder extends Seeder
             'price' => 599,
             'priceOff' => 45,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_697526-MLU69459346544_052023-F.webp']),
             'sku' => '00084',
             'category_id' => 5
         ]);
@@ -987,7 +987,7 @@ class ProductSeeder extends Seeder
             'price' => 427,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_685761-MLM71042310876_082023-F.webp']),
             'sku' => '00085',
             'category_id' => 5
         ]);
@@ -998,7 +998,7 @@ class ProductSeeder extends Seeder
             'price' => 364,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_949534-MLM71589048450_092023-F.webp']),
             'sku' => '00086',
             'category_id' => 5
         ]);
@@ -1009,7 +1009,7 @@ class ProductSeeder extends Seeder
             'price' => 289,
             'priceOff' => 15,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_600691-MLM48395451338_112021-F.webp']),
             'sku' => '00087',
             'category_id' => 5
         ]);
@@ -1020,7 +1020,7 @@ class ProductSeeder extends Seeder
             'price' => 289,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_917372-MLA52962422805_122022-F.webp']),
             'sku' => '00088',
             'category_id' => 5
         ]);
@@ -1031,7 +1031,7 @@ class ProductSeeder extends Seeder
             'price' => 198,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_653970-MLM71685805833_092023-F.webp']),
             'sku' => '00089',
             'category_id' => 5
         ]);
@@ -1042,7 +1042,7 @@ class ProductSeeder extends Seeder
             'price' => 189,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_770737-MLM49025685739_022022-F.webp']),
             'sku' => '00090',
             'category_id' => 5
         ]);
@@ -1053,7 +1053,7 @@ class ProductSeeder extends Seeder
             'price' => 232,
             'priceOff' => 10,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_952397-MLM54140364896_032023-F.webp']),
             'sku' => '00091',
             'category_id' => 5
         ]);
@@ -1064,7 +1064,7 @@ class ProductSeeder extends Seeder
             'price' => 92,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_615165-MLU71412961200_092023-F.webp']),
             'sku' => '00092',
             'category_id' => 5
         ]);
@@ -1075,7 +1075,7 @@ class ProductSeeder extends Seeder
             'price' => 179,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_984103-MLU70211615289_062023-F.webp']),
             'sku' => '00093',
             'category_id' => 5
         ]);
@@ -1086,7 +1086,7 @@ class ProductSeeder extends Seeder
             'price' => 119,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_859960-MLM51473725447_092022-F.webp']),
             'sku' => '00094',
             'category_id' => 5
         ]);
@@ -1097,7 +1097,7 @@ class ProductSeeder extends Seeder
             'price' => 348,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_976706-MLU69702945882_052023-F.webp']),
             'sku' => '00095',
             'category_id' => 5
         ]);
@@ -1108,7 +1108,7 @@ class ProductSeeder extends Seeder
             'price' => 249,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_787679-MLM50497405551_062022-F.webp']),
             'sku' => '00096',
             'category_id' => 5
         ]);
@@ -1119,7 +1119,7 @@ class ProductSeeder extends Seeder
             'price' => 599,
             'priceOff' => 15,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_893818-MLA32505433407_102019-F.webp']),
             'sku' => '00097',
             'category_id' => 6
         ]);
@@ -1130,7 +1130,7 @@ class ProductSeeder extends Seeder
             'price' => 1498,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_758638-MLA42638542946_072020-F.webp']),
             'sku' => '00098',
             'category_id' => 6
         ]);
@@ -1141,7 +1141,7 @@ class ProductSeeder extends Seeder
             'price' => 109,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_978732-MLA46245251343_062021-F.webp']),
             'sku' => '00099',
             'category_id' => 6
         ]);
@@ -1152,7 +1152,7 @@ class ProductSeeder extends Seeder
             'price' => 1599,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_735652-CBT72145283677_102023-F.webp']),
             'sku' => '00100',
             'category_id' => 6
         ]);
@@ -1163,18 +1163,18 @@ class ProductSeeder extends Seeder
             'price' => 699,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_641102-MLM50323535127_062022-F.webp']),
             'sku' => '00101',
             'category_id' => 6
         ]);
 
         DB::table('products')->insert([
-            'name' => "Cama para mascota",
-            'description'=> "Cama cuna grande",
+            'name' => "Cama para mascota pequeña",
+            'description'=> "Cama cuna peque",
             'price' => 699,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_891184-CBT54734015387_032023-F.webp']),
             'sku' => '10101',
             'category_id' => 6
         ]);
@@ -1185,7 +1185,7 @@ class ProductSeeder extends Seeder
             'price' => 2500,
             'priceOff' => 15,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_680377-MLM72040195668_102023-F.webp']),
             'sku' => '00102',
             'category_id' => 6
         ]);
@@ -1196,7 +1196,7 @@ class ProductSeeder extends Seeder
             'price' => 1322,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_689364-MLM53005323779_122022-F.webp']),
             'sku' => '00103',
             'category_id' => 6
         ]);
@@ -1207,7 +1207,7 @@ class ProductSeeder extends Seeder
             'price' => 149,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_711980-MLU71549781066_092023-F.webp']),
             'sku' => '00104',
             'category_id' => 6
         ]);
@@ -1218,7 +1218,7 @@ class ProductSeeder extends Seeder
             'price' => 236,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_841221-MLM48485362440_122021-F.webp']),
             'sku' => '00105',
             'category_id' => 6
         ]);
@@ -1229,7 +1229,7 @@ class ProductSeeder extends Seeder
             'price' => 199,
             'priceOff' => 25,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_781952-MLM54262591558_032023-F.webp']),
             'sku' => '00106',
             'category_id' => 6
         ]);
@@ -1240,7 +1240,7 @@ class ProductSeeder extends Seeder
             'price' => 999,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_998405-MLM71259735149_082023-F.webp']),
             'sku' => '00107',
             'category_id' => 6
         ]);
@@ -1251,7 +1251,7 @@ class ProductSeeder extends Seeder
             'price' => 270,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_634010-MLU54967210524_042023-F.webp']),
             'sku' => '00108',
             'category_id' => 6
         ]);
@@ -1262,7 +1262,7 @@ class ProductSeeder extends Seeder
             'price' => 279,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_648229-MLM69645811949_052023-F.webp']),
             'sku' => '00109',
             'category_id' => 6
         ]);
@@ -1273,7 +1273,7 @@ class ProductSeeder extends Seeder
             'price' => 92,
             'priceOff' => null,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_937152-CBT70625473617_072023-F.webp']),
             'sku' => '00110',
             'category_id' => 6
         ]);
@@ -1284,7 +1284,7 @@ class ProductSeeder extends Seeder
             'price' => 499,
             'priceOff' => 49,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_617494-MLM71296941906_082023-F.webp']),
             'sku' => '00111',
             'category_id' => 6
         ]);
@@ -1295,7 +1295,7 @@ class ProductSeeder extends Seeder
             'price' => 226,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_630027-MLU70013341693_062023-F.webp']),
             'sku' => '00112',
             'category_id' => 6
         ]);
@@ -1306,7 +1306,7 @@ class ProductSeeder extends Seeder
             'price' => 2598,
             'priceOff' => 30,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_812594-MLM72107683844_102023-F.webp']),
             'sku' => '00113',
             'category_id' => 6
         ]);
@@ -1317,7 +1317,7 @@ class ProductSeeder extends Seeder
             'price' => 599,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_690236-MLU71080257517_082023-F.webp']),
             'sku' => '00114',
             'category_id' => 6
         ]);
@@ -1328,7 +1328,7 @@ class ProductSeeder extends Seeder
             'price' => 179,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_620265-MLU70713222866_072023-F.webp']),
             'sku' => '00115',
             'category_id' => 6
         ]);
@@ -1339,7 +1339,7 @@ class ProductSeeder extends Seeder
             'price' => 529,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_613881-MLM71340001917_082023-F.webp']),
             'sku' => '00116',
             'category_id' => 6
         ]);
@@ -1350,7 +1350,7 @@ class ProductSeeder extends Seeder
             'price' => 145,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_673819-MLM54929673206_042023-F.webp']),
             'sku' => '00117',
             'category_id' => 6
         ]);
@@ -1361,7 +1361,7 @@ class ProductSeeder extends Seeder
             'price' => 1499,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_948274-MLU71494331405_092023-F.webp']),
             'sku' => '00118',
             'category_id' => 7
         ]);
@@ -1372,7 +1372,7 @@ class ProductSeeder extends Seeder
             'price' => 1899,
             'priceOff' => null,
             'stock' => 9,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_905946-MLM71878728895_092023-F.webp']),
             'sku' => '00119',
             'category_id' => 7
         ]);
@@ -1383,7 +1383,7 @@ class ProductSeeder extends Seeder
             'price' => 279,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_772548-MLM53708739913_022023-F.webp']),
             'sku' => '00120',
             'category_id' => 7
         ]);
@@ -1394,7 +1394,7 @@ class ProductSeeder extends Seeder
             'price' => 749,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_811672-MLU71590281739_092023-F.webp']),
             'sku' => '00121',
             'category_id' => 7
         ]);
@@ -1405,7 +1405,7 @@ class ProductSeeder extends Seeder
             'price' => 2999,
             'priceOff' => null,
             'stock' => 6,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_747889-MLU69595049313_052023-F.webp']),
             'sku' => '00122',
             'category_id' => 7
         ]);
@@ -1416,7 +1416,7 @@ class ProductSeeder extends Seeder
             'price' => 499,
             'priceOff' => 25,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_667561-MLM69397554131_052023-F.webp']),
             'sku' => '00123',
             'category_id' => 7
         ]);
@@ -1427,7 +1427,7 @@ class ProductSeeder extends Seeder
             'price' => 599,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_706537-MLA44936460361_022021-F.webp']),
             'sku' => '00124',
             'category_id' => 7
         ]);
@@ -1438,7 +1438,7 @@ class ProductSeeder extends Seeder
             'price' => 345,
             'priceOff' => 35,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_727600-MLU70444657730_072023-F.webp']),
             'sku' => '00125',
             'category_id' => 7
         ]);
@@ -1449,7 +1449,7 @@ class ProductSeeder extends Seeder
             'price' => 1809,
             'priceOff' => 15,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_815652-MLM42348742250_062020-F.webp']),
             'sku' => '00126',
             'category_id' => 7
         ]);
@@ -1460,7 +1460,7 @@ class ProductSeeder extends Seeder
             'price' => 799,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_697019-MLU71082443563_082023-F.webp']),
             'sku' => '00127',
             'category_id' => 7
         ]);
@@ -1471,7 +1471,7 @@ class ProductSeeder extends Seeder
             'price' => 599,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_638061-MLU69497652383_052023-F.webp']),
             'sku' => '00128',
             'category_id' => 7
         ]);
@@ -1482,7 +1482,7 @@ class ProductSeeder extends Seeder
             'price' => 619,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_749866-MLM51125349502_082022-F.webp']),
             'sku' => '00129',
             'category_id' => 7
         ]);
@@ -1493,7 +1493,7 @@ class ProductSeeder extends Seeder
             'price' => 629,
             'priceOff' => null,
             'stock' => 4,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_646694-MLU70919605655_082023-F.webp']),
             'sku' => '00130',
             'category_id' => 7
         ]);
@@ -1504,7 +1504,7 @@ class ProductSeeder extends Seeder
             'price' => 617,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_644040-MLM48692880955_122021-F.webp']),
             'sku' => '00131',
             'category_id' => 7
         ]);
@@ -1515,7 +1515,7 @@ class ProductSeeder extends Seeder
             'price' => 1429,
             'priceOff' => 30,
             'stock' => 7,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_895731-MLA71862729219_092023-F.webp']),
             'sku' => '00132',
             'category_id' => 7
         ]);
@@ -1526,7 +1526,7 @@ class ProductSeeder extends Seeder
             'price' => 4399,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_783527-MLU70648071979_072023-F.webp']),
             'sku' => '00133',
             'category_id' => 7
         ]);
@@ -1537,7 +1537,7 @@ class ProductSeeder extends Seeder
             'price' => 759,
             'priceOff' => null,
             'stock' => 5,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_667842-MLM48871381829_012022-F.webp']),
             'sku' => '00134',
             'category_id' => 7
         ]);
@@ -1548,7 +1548,7 @@ class ProductSeeder extends Seeder
             'price' => 799,
             'priceOff' => 35,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_834931-MLM52330836640_112022-F.webp']),
             'sku' => '00135',
             'category_id' => 7
         ]);
@@ -1559,7 +1559,7 @@ class ProductSeeder extends Seeder
             'price' => 689,
             'priceOff' => null,
             'stock' => 8,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_688231-MLM47493101458_092021-F.webp']),
             'sku' => '00136',
             'category_id' => 7
         ]);
@@ -1570,7 +1570,7 @@ class ProductSeeder extends Seeder
             'price' => 295,
             'priceOff' => null,
             'stock' => 2,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_978439-MLU70908019318_082023-F.webp']),
             'sku' => '00137',
             'category_id' => 7
         ]);
@@ -1581,7 +1581,7 @@ class ProductSeeder extends Seeder
             'price' => 375,
             'priceOff' => null,
             'stock' => 3,
-            'image' => json_encode(['img1.jpg', 'img2.jpg']),
+            'image' => json_encode(['https://http2.mlstatic.com/D_NQ_NP_2X_651890-MLM54703359876_032023-F.webp']),
             'sku' => '00138',
             'category_id' => 7
         ]);
